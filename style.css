@@ -1,0 +1,40 @@
+body {
+    background-color: #1F2937;
+    font-family: Roboto, sans-serif;
+    color: #f9faf8;
+}
+
+.header {
+    margin: 16px 128px 128px 128px;
+    font-size: 24px;
+    display: flex;
+    justify-content:  space-between;
+}
+
+.header-logo {
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
+    align-items: center;
+    gap: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
