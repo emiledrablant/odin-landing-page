@@ -2,10 +2,11 @@ body {
     background-color: #1F2937;
     font-family: Roboto, sans-serif;
     color: #f9faf8;
+    margin: 0;
 }
 
 .header {
-    margin: 16px 128px 128px 128px;
+    margin: 16px 128px 48px 128px;
     font-size: 24px;
     display: flex;
     justify-content:  space-between;
@@ -29,12 +30,52 @@ li a {
     color: #f9faf8;
 }
 
+.hero-part {
+    padding-left: 128px;
+    padding-right: 128px;
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 480px;
+    max-width: 480px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 8px;
+}
+
+.hero-img {
+    max-width: 480px;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 32px;
+}
 .secondary-text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.section-two {
+    background-color: white;
+    color: #1f2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+    padding: 12px 24px;
+    display: inline-block;
 }
