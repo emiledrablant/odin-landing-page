@@ -101,3 +101,26 @@ button {
     display: flex;
     justify-content: space-around;
 }
+
+.section-three {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 128px 256px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.quote {
+    margin: 0;
+    text-align: justify;
+}
+
+.author-of-quote {
+    margin: 0;
+    margin-top: 16px;
+    font-weight: bold;
+    align-self: flex-end;
+}
