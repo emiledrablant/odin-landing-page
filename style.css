@@ -30,6 +30,15 @@ li a {
     color: #f9faf8;
 }
 
+.hero {
+    padding: 0 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 8px;
+}
+/*
 .hero-part {
     padding-left: 128px;
     padding-right: 128px;
@@ -41,7 +50,7 @@ li a {
     align-items: flex-start;
     align-content: space-between;
     gap: 8px;
-}
+}*/
 
 .hero-img {
     max-width: 480px;
